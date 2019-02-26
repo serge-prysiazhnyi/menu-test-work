@@ -4,10 +4,192 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="container d-flex justify-content-center align-items-center">
+        <nav class="nav">
+            <div class="menu">
+                <div class="menu-section">
+                    <h6 class="pb-2">КАТЕГОРИЯ ТОВАРОВ</h6>
+                    <ul class="accordion-menu">
+                        <li class="menu-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <input type="checkbox" name="" id="menu-item-1">
+                                <label class="pl-1 flex-grow-1" for="menu-item-1">Компоненты ВОЛС</label>
+                                <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs"></i></button>
+                            </div>
+                            <ul class="submenuItems menu-item pt-2">
+                                <li class="menu-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-1">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-1">Some item</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item pt-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <input type="checkbox" name="" id="menu-item-2">
+                                    <label class="pl-1 flex-grow-1" for="menu-item-2">Компоненты СКС</label>
+                                    <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs icon-open"></i></button>
+                                </div>
+                            <ul class="submenuItems menu-item show">
+                                <li class="menu-item pt-2">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-1">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-1" >Разъемы и переходник</label>
+                                        <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs"></i></button>
+                                    </div>
+                                    <ul class="submenuItems menu-item pt-2">
+                                        <li class="menu-item">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-1">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-1">Some item</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item pt-2">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-2">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-2">Коаксиальный кабель</label>
+                                        <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs"></i></button>
+                                    </div>
+                                    <ul class="submenuItems menu-item pt-2">
+                                        <li class="menu-item">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-1">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-1">Some item</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item pt-2">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-3">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-3" >Патч-панели</label>
+                                        <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs"></i></button>
+                                    </div>
+                                    <ul class="submenuItems menu-item pt-2">
+                                        <li class="menu-item">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-1">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-1">Some item</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item pt-2">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-4">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-4" >Розетки</label>
+                                        <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs"></i></button>
+                                    </div>
+                                    <ul class="submenuItems menu-item pt-2">
+                                        <li class="menu-item">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-1">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-1">Some item</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item pt-2">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-5">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-5">Инструменты</label>
+                                        <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs icon-open"></i></button>
+                                    </div>
+                                    <ul class="submenuItems show">
+                                        <li class="menu-item pt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-5-subitem-1">
+                                                <label class="pl-3  flex-grow-1" for="menu-subitem-5-subitem-1">Тестеры</label>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item pt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-5-subitem-2">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-5-subitem-2">Шкафы телекоммуникационные напольные</label>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item pt-2">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-5-subitem-3">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-5-subitem-3">Шкафы телекоммуникационные настенные</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item pt-2">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-6">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-6">Кроссовое оборудование</label>
+                                        <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs"></i></button>
+                                    </div>
+                                    <ul class="submenuItems menu-item pt-2">
+                                        <li class="menu-item">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-1">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-1">Some item</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item pt-2">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-7">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-7">Крепеж, соединители, кабеля</label>
+                                        <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs"></i></button>
+                                    </div>
+                                    <ul class="submenuItems menu-item pt-2">
+                                        <li class="menu-item">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-1">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-1">Some item</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item pt-2">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <input type="checkbox" name="" id="menu-subitem-8">
+                                        <label class="pl-2 flex-grow-1" for="menu-subitem-8">Кабель “Витая пара” utp и utf</label>
+                                        <button class="dropdown-btn"><i class="fas fa-chevron-right fa-xs"></i></button>
+                                    </div>
+                                    <ul class="submenuItems menu-item pt-2">
+                                        <li class="menu-item">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <input type="checkbox" name="" id="menu-subitem-1">
+                                                <label class="pl-3 flex-grow-1" for="menu-subitem-1">Some item</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-section">
+                    <h6>СТАТУС</h6>
+                    <div>
+                        <input type="checkbox" name="" id="status-active">
+                        <label class="pl-1" for="status-active">Активен</label>
+                        <input class="ml-3" type="checkbox" name="" id="status-inactive">
+                        <label class="pl-1" for="status-inactive">Неактивен</label>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button class="menu-btn flex-grow-1 mr-1">ПРИМЕНИТЬ</button>
+                    <button class="menu-btn flex-grow-1 ml-1">СБРОСИТЬ</button>
+                </div>
+            </div>
+        </nav>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
